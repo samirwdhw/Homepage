@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+	<html>
+
+		<head>
+			
+			<link rel = "stylesheet" href = "stylesheet.css" type = "text/css" />
+		
+			<script>
+			function expand(x, y) {
+
+				var partition;
+
+				if(x == 1)
+					{ partition = document.getElementById("home_div"); }
+				else if(x == 2)
+					{ partition = document.getElementById("achieve_div"); }
+				else if(x == 3)
+					{ partition = document.getElementById("hobby_div"); }
+				else if(x == 4)
+					{ partition = document.getElementById("random_div"); }
+
+				if(y == 1)
+					{ partition.style.display = 'block';}
+				else
+					{ partition.style.display = 'none'; }
+			}
+
+
+		</script>
+
+
+		</head>
+
+
+
+		<body bgcolor = "#6ab187"> 
+
+			<!--Navigation Bar-->
+			<div class = "Nav_bar" id="home_nav" onmouseover="expand(1,1)" onmouseout="expand(1,0)">Home</div>
+			<div class = "Nav_bar" id="achieve_nav" onmouseover="expand(2,1)" onmouseout="expand(2,0)">Achievements</div>	
+			<div class = "Nav_bar" id="hobby_nav" onmouseover="expand(3,1)" onmouseout="expand(3,0)">Hobbies</div>
+			<div class = "Nav_bar" id="random_nav" onmouseover="expand(4,1)" onmouseout="expand(4,0)">Contact Info.</div>
+
+			<!--Home-->
+			<div class = "Division" id = "home_div">
+				
+				<h1>Home</h1>
+				<img src = "me-2.jpg" height = 270px width= 215px align = center />
+				<!-- <p>Samir Wadhwa<br>Mechanical Engineering, IITB<br>1st Year</p> -->
+				
+				<br/><br/><br/>
+				<p>My name is Samir Wadhwa. I'm currently a student of Mechanical Engineering at IIT Bombay. Before college I have lived in many cities the most recent one being Navi Mumbai.
+				   I completed my high school in DPS Navi Mumbai, CBSE board. I have interests in many things ranging from science to sports. Further details have been listed in the other tabs.
+				   Thanks for visiting my homepage.
+				</p> 
+
+
+
+			</div>
+
+			<!--Achievements-->
+			<div class = "Division" id = "achieve_div">
+				
+				<h1>Achievements</h1>
+
+				<ul> 
+					<li>Captain of wiining team, Freshie Basketball League</li>
+					<li>Winner of Pitching v2.0 E-summit 2016</li>
+					<li>Second Runner Up Short Play, Spirtis, 2013</li>
+					<li>Selected for second round of coding competiton organised by IIIT Delhi</li>
+				</ul>
+
+
+			</div>
+
+			<!--Hobbies-->
+			<div class = "Division" id = "hobby_div">
+
+				<h1>Hobbies</h1>
+
+				<p>I'm interested in sports particulary basketball. I'm enrolled in the NSO course for the same for my first year. Badminton is another sport I like and I have learnt it to a decent extend before college. Also, I enjoy coding and try my best to learn as much as possible with the help of friends, seniors and online courses. I can also play the guitar and I play it occassionaly when I have free time. I also enjoy watching movies usually thrillers and gaming preferably shooting and third person adventure games.</p> 
+
+			</div>
+
+			<!--Random-->
+			<div class = "Division" id = "random_div">
+				
+				<h1>Contact Information</h1>
+
+				<p>Address: 38-201, NRI Appts<br/> Opp. DPS School Navi Mumbai, Seawoods<br/> Navi Mumbai, Maharashtra <br/>
+				Phone Number: 022-39638021 (R) 7303041617 (M) <br/>
+				Email-ID: samir.wdhw@gmail.com</p>
+
+			</div>
+
+
+		</body>
+
+
+
+	</html>

@@ -1,0 +1,84 @@
+.Nav_bar	{
+	display: inline-block;
+	width: 18%;
+	/*border: 2px solid black;*/
+	height: 50px;
+	margin-left: 2%;
+	margin-right: 2%;
+	border-radius: 10px;
+	margin-top: 50px;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	background-size: 100% 100%;
+	background-image: url("scroll_paper.png");
+}
+
+#home_nav {
+	margin-left: 4%;
+	background-size: 100% 100%;
+	background-image: url("scroll_paper.png");
+}
+
+.Nav_bar:hover {
+	background-color: black;
+}
+
+#achieve_nav {
+	/*background-color: #de7a22;*/
+}
+
+#hobby_nav	{
+	/*background-color: #20948b;*/
+}
+
+#random_nav {
+	margin-right: 4%;
+	/*background-color: #bcbabe;*/
+}
+
+body {
+	background-image: url("wood_background-2.jpg");
+}
+
+.Division {
+	float: both;
+	margin: 50px 4% 0px 4%;
+	width: 92%;
+	height: 700px;
+	border-radius: 20px;
+	border: 2px solid black;
+	text-align: center;
+	display: none;
+	font-size: 25px;
+	background-image: url("worn_paper.jpg");
+}
+
+/*
+#home_div {
+	/*background-color: #f4cc7c;
+	background-image: url("worn_paper.jpg");
+
+}
+
+#achieve_div {
+	/*background-color: #20948b;
+	background-image: url("achievements_paper.jpg");
+}
+
+#hobby_div {
+	background-color: #20948b;
+}
+
+#random_div {
+	/*background-color: #bcbabe;
+	background-image: url("contact_paper.jpg");
+}
+*/
+
+
+
+/*.Nav_bar:hover	{
+	color: ;
+
+}*/
