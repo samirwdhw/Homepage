@@ -54,6 +54,15 @@ body {
 	background-image: url("worn_paper.jpg");
 }
 
+div img {
+
+	margin: 50px 20px 20px 20px;
+}
+
+#hobby_div img {
+	margin-left: 100px;
+}
+
 /*
 #home_div {
 	/*background-color: #f4cc7c;
