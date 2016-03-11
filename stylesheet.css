@@ -63,13 +63,14 @@ div img {
 	margin-left: 100px;
 }
 
-/*
+
 #home_div {
 	/*background-color: #f4cc7c;
-	background-image: url("worn_paper.jpg");
+	background-image: url("worn_paper.jpg");*/
+	display: block;
 
 }
-
+/*
 #achieve_div {
 	/*background-color: #20948b;
 	background-image: url("achievements_paper.jpg");

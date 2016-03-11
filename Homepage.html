@@ -4,10 +4,12 @@
 
 		<head>
 			
+			<title>Samir Wadhwa</title>
+
 			<link rel = "stylesheet" href = "stylesheet.css" type = "text/css" />
 		
 			<script>
-			function expand(x, y) {
+			function expand(x) {
 
 				var partition;
 
@@ -20,10 +22,13 @@
 				else if(x == 4)
 					{ partition = document.getElementById("random_div"); }
 
-				if(y == 1)
-					{ partition.style.display = 'block';}
-				else
-					{ partition.style.display = 'none'; }
+
+				document.getElementById("home_div").style.display = 'none';
+				document.getElementById("achieve_div").style.display = 'none';
+				document.getElementById("hobby_div").style.display = 'none';
+				document.getElementById("random_div").style.display = 'none';
+				
+				partition.style.display = 'block';
 			}
 
 
@@ -37,10 +42,10 @@
 		<body bgcolor = "#6ab187"> 
 
 			<!--Navigation Bar-->
-			<div class = "Nav_bar" id="home_nav" onmouseover="expand(1,1)" onmouseout="expand(1,0)">Home</div>
-			<div class = "Nav_bar" id="achieve_nav" onmouseover="expand(2,1)" onmouseout="expand(2,0)">Achievements</div>	
-			<div class = "Nav_bar" id="hobby_nav" onmouseover="expand(3,1)" onmouseout="expand(3,0)">Hobbies</div>
-			<div class = "Nav_bar" id="random_nav" onmouseover="expand(4,1)" onmouseout="expand(4,0)">Contact Info.</div>
+			<div class = "Nav_bar" id="home_nav" onmousedown ="expand(1)">Home</div>
+			<div class = "Nav_bar" id="achieve_nav" onmousedown ="expand(2)" >Achievements</div>	
+			<div class = "Nav_bar" id="hobby_nav" onmousedown="expand(3)" >Hobbies</div>
+			<div class = "Nav_bar" id="random_nav" onmousedown="expand(4)">Contact Info.</div>
 
 			<!--Home-->
 			<div class = "Division" id = "home_div">
